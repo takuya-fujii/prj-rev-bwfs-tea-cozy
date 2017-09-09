@@ -1,0 +1,219 @@
+
+/*-------------*/
+html {
+  /*font-size: 22px;*/    /* <= How to set font-size of a specific headline tag and adjust other h1-h6 tags's size according to it?  */
+  font-family: helvetica, sans-serif;
+  text-align: center;
+
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+/*-------------*/
+body {
+  margin-top: 0px;
+}
+
+
+header {
+  height: 69px;
+  width: 100%;
+  display: flex;
+  background-color: black;
+
+  border-bottom: 1px solid seashell;
+
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+}
+header .logo {
+  height: 50px;
+  width: auto;
+
+  padding: 0px 10px;
+  /*  border: 1px solid red;*/
+}
+/*header img {
+  height: 50px;
+  width: auto;
+  padding-left: 10px;
+
+    border: 1px solid red;
+}*/
+header .nav {
+  /*display: flex;*/
+/*    border: 1px solid red;*/
+}
+header .nav a {
+  font-size: 22px;
+  color: seashell;
+  text-decoration: underline;
+
+  padding: 10px;
+}
+
+/*************/
+/* Main Body */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  justify-content: center;
+  padding-top: 69px;
+
+    /*border: 2px solid red;*/
+}
+main .content {
+  flex-direction: row;
+}
+
+
+/*  */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-content: center;
+
+    /*border: 2px solid red;*/
+}
+
+/***********************/
+/* Content 1: mission */
+.mission {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+}
+.mission .title {
+  width: 100%;
+
+  text-transform: capitalize;
+
+  background-color: black;
+}
+.mission .title h2 {
+
+}
+.mission .title h4 {
+
+}
+
+
+/************************/
+/* Content 2: selection */
+.selection {
+  display: flex;
+  /*height: auto;*/
+  width: 1000px;
+
+  justify-content: center;
+  align-content: center;
+}
+.selection .title {
+
+}
+.selection .title h2 {
+
+}
+.selection .title h4 {
+
+}
+
+.selection .teas {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+    /*border: 2px solid blue;*/
+}
+.selection .teas img {
+  height: 200px;
+  width: 300px;
+
+  margin: 10px;
+}
+.selection .teas h4 {
+  text-transform: capitalize;
+}
+
+.selection .teas .berry {
+
+}
+.selection .teas .rum {
+
+}
+.selection .teas .donuts {
+
+}
+.selection .teas .myrtle {
+
+}
+.selection .teas .bedford {
+
+}
+/***********************/
+/* Content 3: location */
+.location {
+  display: flex;
+  /*flex-wrap: wrap;*/
+  height: 500px;
+  width: 1200px;
+
+  background-image: url("../images/img-locations-background.jpg");
+}
+.location .title {
+  width: 100%;
+  text-align: center;
+
+    /*border: 1px dotted orange;*/
+}
+.location .place {
+  display: flex;
+  flex-wrap: wrap;
+
+    /*border: 3px double red;*/
+}
+.location .place .box {
+  height: 300px;
+  width: 300px;
+
+  margin: 15px 20px;
+
+  background-color: black;
+  opacity: 1;
+
+  /*  border: 2px solid red;*/
+}
+
+
+
+/**********/
+/* footer */
+footer {
+
+}
+footer .title {
+
+}
+footer .title  h2{
+
+}
+
+footer .contact {
+  height: 200px;
+}
+footer .contact h5 {
+
+}
+footer .copyright {
+  text-align: left;
+  padding-left: 20px;
+}
